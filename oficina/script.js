@@ -1,8 +1,12 @@
-const botao = document.getElementById("botao")
+const botao = document.getElementById("botao");
+const corpo = document.body;
 
-
-function clicou(){
-    alert("Teste!");
-}
+corpo.addEventListener(
+    "mousemove", function (evento) {
+        let mouseX = evento.clientX;
+        let mouseY = evento.clientY;
+        console.log(mouseX,mouseY);
+    }
+);
 
 
