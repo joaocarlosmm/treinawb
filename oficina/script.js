@@ -19,6 +19,10 @@ corpo.addEventListener("mousemove", function (evento) {
         let novaPosicaoX = Math.min(window.innerWidth - posicaoBotao.width, Math.max(0,botao.offsetLeft + moverX));
         let novaPosicaoY = Math.min(window.innerHeight - posicaoBotao.height, Math.max(0,botao.offsetTop + moverY));
 
+        botao.style.position = 'absolute';
+        botao.style.left = novaPosicaoX + "px";
+        botao.style.top = novaPosicaoY + "px";
+
     }
 
 }
