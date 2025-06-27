@@ -8,5 +8,6 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-
+    background-color: linear-gradient(to right, #FFECD2,rgb(255, 255, 75));
 }
+    
