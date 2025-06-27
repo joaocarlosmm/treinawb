@@ -9,3 +9,6 @@ corpo.addEventListener("mousemove", function(evento) {
 );
 
 
+function clicou(){
+    alert("Olá")
+}
