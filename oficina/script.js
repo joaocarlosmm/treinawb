@@ -22,12 +22,9 @@ corpo.addEventListener("mousemove", function (evento) {
         botao.style.position = 'absolute';
         botao.style.left = novaPosicaoX + "px";
         botao.style.top = novaPosicaoY + "px";
-
     }
-
 }
 );
-
 
 function clicou() {
     alert("Olá")
