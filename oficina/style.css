@@ -21,3 +21,19 @@ h1{
     color: #d1495b;
     margin-bottom: 30px;
 }
+
+#botao{
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #F77F00;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#botao:hover{
+    background-color: #fcd6a4;
+    color:black;
+}
